@@ -1,0 +1,27 @@
+[
+  {
+    "img": "./assets/pizza-1.jpg",
+    "title": "Ultimate Hut Bundle",
+    "description": "ANY 2 medium pizzas, ANY 8 boneless wings, ANY sticks & 2 dips!"
+  },
+  {
+    "img": "./assets/pizza-2.jpg",
+    "title": "Family Feast",
+    "description": "Large 2 topping pizza, garlic bread, and a 2L drink! Offer restricted to one per order!"
+  },
+  {
+    "img": "./assets/pizza-3.jpg",
+    "title": "Meat Lovers",
+    "description": "Double pepperoni, extra cheese, and out special sauce!"
+  },
+  {
+    "img": "./assets/pizza-4.jpg",
+    "title": "Meat Lovers",
+    "description": "Loaded with pepperoni, sausage, bacon, ham, and beef"
+  },
+  {
+    "img": "./assets/pizza-5.jpg",
+    "title": "Pepperoni Lovers",
+    "description": "Double pepperoni, extra cheese, and our special sauce!"
+  }
+]
