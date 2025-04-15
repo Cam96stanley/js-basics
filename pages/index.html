@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Hut</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Pizza Hut</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- HERO SECTION -->
+
+      <div class="mt-4">
+        <img
+          class="img-fluid rounded mx-auto d-block w-75 w-md-50 w-lg-40 h-md-20"
+          src="../assets/pizza-hero.jpg"
+          alt="cheesy bites pizza and ranch flight promotion"
+        />
+      </div>
+
+      <!-- FEATURED SECTION -->
+
+      <div class="continer-fluid">
+        <h1 class="my-4 text-center">Featured</h1>
+      </div>
+
+      <div class="container" id="card">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card p-4 text-center">
+              <img
+                src="../assets/pizza-1.jpg"
+                alt="Ultimate Hut Bundle"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ultimate Hut Bundle</h5>
+                <p class="card-text">
+                  ANY 2 medium pizzas, ANY 8 boneless wings, ANY sticks & 2 dips
+                </p>
+                <a class="btn btn-danger px-4" href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card p-4 text-center">
+              <img
+                src="../assets/pizza-2.jpg"
+                alt="Family Feast"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Family Feast</h5>
+                <p class="card-text">
+                  Large 2 topping pizza, garlic bread, and a 2L drink! Offer
+                  restricted to one per order
+                </p>
+                <a class="btn btn-danger px-4" href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card p-4 text-center">
+              <img
+                src="../assets/pizza-3.jpg"
+                alt="Pepperoni Lover’s"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pepperoni Lover’s</h5>
+                <p class="card-text">
+                  Double pepperoni, extra cheese, and our special sauce!
+                </p>
+                <a class="btn btn-danger px-4" href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card p-4 text-center">
+              <img
+                src="../assets/pizza-4.jpg"
+                alt="Meat Lover’s"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Meat Lover’s</h5>
+                <p class="card-text">
+                  Loaded with pepperoni, sausage, bacon, ham, and beef!
+                </p>
+                <a class="btn btn-danger px-4" href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card p-4 text-center">
+              <img
+                src="../assets/pizza-5.jpg"
+                alt="Pepperoni Lover’s"
+                class="img-fluid"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pepperoni Lover’s</h5>
+                <p class="card-text">
+                  Double pepperoni, extra cheese, and our special sauce!
+                </p>
+                <a class="btn btn-danger px-4" href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="mt-4">
+        <div class="accordion" id="faq-accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                FAQ
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faq-accordion"
+            >
+              <div class="accordion-body">
+                <p><strong>Q: How can I place an order?</strong></p>
+                <p>
+                  A: You can order online through our website, call us, or visit
+                  our store to place an order in person.
+                </p>
+
+                <p><strong>Q: Do you offer delivery?</strong></p>
+                <p>
+                  A: Yes! We offer delivery within a 5-mile radius. You can
+                  check availability at checkout.
+                </p>
+
+                <p><strong>Q: How long does delivery take?</strong></p>
+                <p>
+                  A: Delivery usually takes 30-45 minutes, but times may vary
+                  during peak hours.
+                </p>
+
+                <p><strong>Q: Can I schedule an order for later?</strong></p>
+                <p>
+                  A: Absolutely! You can schedule an order for pickup or
+                  delivery at a later time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer class="footer">
+      © 2025 Pizza Hut, LLC. All Rights Reserved. The Pizza Hut Name, Logos And
+      Related Marks Are Trademarks Of Pizza Hut, LLC. All Other Trademarks Are
+      The Property Of Their Respective Owners.
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
